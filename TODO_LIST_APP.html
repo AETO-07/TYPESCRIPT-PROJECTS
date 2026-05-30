@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="TODO_LIST_APP.css">
+</head>
+<body>
+    <div class="todo-app">
+        <h2>Todo List</h2>
+        <div class="controls">
+            <input type="text" id="task" placeholder="Enter task">
+            <button id="addbtn">Add</button>
+        </div>
+        <div class="controls search-wrap">
+            <input type="text" id="searchinput" placeholder="Search tasks">
+        </div>
+        <button id="clearCompletedBtn" class="secondary-btn">Clear Completed</button>
+        <ul id="taskList"></ul>
+        <p id="taskCount">0 tasks remaining</p>
+    </div>
+    <script type="module" src="dist/TODO_LIST_APP.js"></script>
+</body>
+</html>

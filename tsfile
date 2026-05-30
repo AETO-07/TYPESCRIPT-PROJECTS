@@ -1,0 +1,10 @@
+tsc --version <!--checks the version of the ts-->
+tsc "foldername"<!--opens a js file of the ts-->
+npm i lite-server <!--opens a server-->
+npm start <!--starts the server-->
+tsc -w <!-- watches over all actions -->
+why is the searchtext required to be before creating the li element?
+The searchText variable is required to be before creating the li element because it is used to filter the tasks that are displayed in the list. 
+When the user types in the search input, the searchText variable is updated with the current value of the input. 
+This allows the renderTasks function to compare each task's text with the searchText and determine whether it should be displayed or not. 
+If the searchText is not defined before creating the li element, the filtering functionality would not work correctly, and all tasks would be displayed regardless of the search input.

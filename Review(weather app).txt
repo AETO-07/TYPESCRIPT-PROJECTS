@@ -1,0 +1,7 @@
+The building of the weather app was a breakthrough for me.
+It exposed me to practice concepts that i have learnt; await, async, fetch,...
+I encountered issues with fecthing process; 
+* At first, it required internet connection
+* Writitng of the correct Url made me to be more meticulous
+Understanding my code so far is not a big deal; currently i havent sytled it,
+It has features like getting the desired data from the endpoint, and displaying it to the user
