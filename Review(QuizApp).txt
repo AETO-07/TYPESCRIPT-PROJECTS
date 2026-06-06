@@ -14,3 +14,5 @@ Potential improvements:
 * Show explanations for answers, or a progress indicator for more context.
 
 Overall: clean, type-safe implementation of a quiz engine with obvious next steps for UX enhancements.
+
+Reviewed and confirmed

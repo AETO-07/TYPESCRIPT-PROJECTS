@@ -15,3 +15,5 @@ Potential improvements:
 * Persist high score or attempt history in localStorage.
 
 Overall: simple, well-structured game that demonstrates basic state management and event-driven UI.
+
+Reviewed and confirmed

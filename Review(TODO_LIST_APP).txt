@@ -14,3 +14,5 @@ Potential improvements:
 * Improve accessibility (labels, button descriptions) and save the current filter state.
 
 Overall: A full-featured client-side todo app with room for usability and polish features.
+
+Reviewed and confirmed

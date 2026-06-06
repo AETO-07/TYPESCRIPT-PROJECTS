@@ -13,3 +13,5 @@ Potential improvements:
 * Add decimal support, keyboard input handling, and better error handling for invalid expressions.
 
 Overall: Strong UI foundation; next steps focus on calculation correctness and UX polish.
+
+Reviewed and confirmed

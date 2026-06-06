@@ -15,3 +15,5 @@ Potential improvements:
 * Consider combining into a single calculator that supports expression parsing.
 
 Overall: Practical utility with clear separation of concerns and easy to extend.
+
+Reviewed and confirmed
