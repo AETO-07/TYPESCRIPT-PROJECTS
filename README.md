@@ -105,3 +105,4 @@ ISC
 ## Author
 
 Created as a learning project for TypeScript and web development fundamentals.
+

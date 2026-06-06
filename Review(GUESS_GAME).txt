@@ -1,0 +1,17 @@
+Working on the Guess Game strengthened my understanding of DOM events, user input validation, and basic game logic.
+
+What it does:
+* Generates a random number 1–100 and accepts numeric guesses.
+* Tracks attempts and visually indicates progress by changing the attempts counter color.
+* Limits the player to a maximum number of attempts and provides a restart button.
+
+Notes & lessons learned:
+* Good practice using TypeScript DOM types and event listeners.
+* Input validation uses a check that treats 0 as falsy — consider using explicit isNaN checks.
+
+Potential improvements:
+* Improve validation for non-numeric and out-of-range inputs (0 is currently rejected by the falsy check).
+* Add accessibility features (labels, focus states) and better user feedback for screen readers.
+* Persist high score or attempt history in localStorage.
+
+Overall: simple, well-structured game that demonstrates basic state management and event-driven UI.

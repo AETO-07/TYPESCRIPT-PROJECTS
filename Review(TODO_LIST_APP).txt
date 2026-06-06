@@ -1,0 +1,16 @@
+The Todo List app demonstrates persistent client-side state and useful task operations.
+
+What it does:
+* Lets users add, edit, delete, mark done/undo, search tasks, and clear completed items.
+* Persists tasks in `localStorage` so data survives page reloads.
+
+Notes & lessons learned:
+* Solid use of DOM creation for task items and incremental rendering via `renderTasks()`.
+* Search and filtering are implemented efficiently; tasks are stored as `{text, done}` objects.
+
+Potential improvements:
+* Add undo for deletes or a confirmation prompt for destructive actions.
+* Support reordering (drag & drop) and timestamps for tasks.
+* Improve accessibility (labels, button descriptions) and save the current filter state.
+
+Overall: A full-featured client-side todo app with room for usability and polish features.

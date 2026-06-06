@@ -1,0 +1,17 @@
+The Mini Calculator implements core arithmetic operations and input validation in a compact UI.
+
+What it does:
+* Accepts two numeric inputs and performs add, subtract, multiply, divide operations.
+* Validates inputs and prevents division by zero.
+* Provides a clear/reset button to reset inputs and results.
+
+Notes & lessons learned:
+* Straightforward DOM wiring and separation of small helper functions (`getInput`, `validateInputs`).
+* Good error messages for incomplete input and divide-by-zero.
+
+Potential improvements:
+* Support decimal numbers and keyboard input for a smoother UX.
+* Improve formatting of results and handle edge cases like very large numbers.
+* Consider combining into a single calculator that supports expression parsing.
+
+Overall: Practical utility with clear separation of concerns and easy to extend.
