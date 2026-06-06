@@ -17,3 +17,5 @@ Potential improvements:
 Overall: simple, well-structured game that demonstrates basic state management and event-driven UI.
 
 Reviewed and confirmed
+
+Reviewed and confirmed

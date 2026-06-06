@@ -15,3 +15,5 @@ Potential improvements:
 Overall: Strong UI foundation; next steps focus on calculation correctness and UX polish.
 
 Reviewed and confirmed
+
+Reviewed and confirmed
