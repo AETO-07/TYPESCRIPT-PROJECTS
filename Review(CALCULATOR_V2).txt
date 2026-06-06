@@ -1,0 +1,15 @@
+Calculator V2 is a button-driven calculator UI that demonstrates event delegation and basic expression handling.
+
+What it does:
+* Provides numeric and operator buttons, a display, clear and equals controls.
+* Likely computes results via an equals handler in the compiled script.
+
+Notes & lessons learned:
+* Good layout for a touch/click-driven calculator.
+* The HTML structure is ready for adding keyboard support and improved expression parsing.
+
+Potential improvements:
+* Implement proper expression parsing (respect operator precedence) instead of naive left-to-right evaluation.
+* Add decimal support, keyboard input handling, and better error handling for invalid expressions.
+
+Overall: Strong UI foundation; next steps focus on calculation correctness and UX polish.

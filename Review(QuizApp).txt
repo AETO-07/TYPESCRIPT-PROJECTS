@@ -1,0 +1,16 @@
+Building the Quiz App was a clear exercise in dynamic DOM rendering and TypeScript types.
+
+What it does:
+* Renders questions and multiple-choice options dynamically from a typed `quizData` array.
+* Handles scoring, per-question answer locking, and a restart flow.
+
+Notes & lessons learned:
+* Good use of a `Question` type to enforce structure and prevent runtime shape errors.
+* Buttons are created and managed dynamically, with visual feedback for right/wrong answers.
+
+Potential improvements:
+* Shuffle questions and options to improve replayability.
+* Add keyboard navigation and ARIA attributes for accessibility.
+* Show explanations for answers, or a progress indicator for more context.
+
+Overall: clean, type-safe implementation of a quiz engine with obvious next steps for UX enhancements.
