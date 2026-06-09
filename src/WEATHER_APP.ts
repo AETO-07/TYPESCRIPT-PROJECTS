@@ -89,7 +89,17 @@ function renderHistory(){
     historyList.innerHTML = "";
     searchHistory.forEach((city) => {
         historyList.innerHTML += 
-        `<li> ${city}</li>`;
+        `<li class="history-item"> ${city}</li>`;
     });
+    const historyItems = document.querySelectorAll(".history-item")
+    historyItems.forEach((item) => {
+        item.addEventListener("mouseenter", () => {
+            (item as HTMLElement).style.cursor = "pointer";
+        });
+        item.addEventListener("click", () =>{
+        cityInput.value = item.textContent || "";
+        getWeather();
+    });
+});
 }
 renderHistory();
