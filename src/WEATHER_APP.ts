@@ -89,7 +89,10 @@ function renderHistory(){
     historyList.innerHTML = "";
     searchHistory.forEach((city) => {
         historyList.innerHTML += 
-        `<li class="history-item"> ${city}</li>`;
+        `<li>
+        <span class="history-item"> ${city}</span>
+        <button class="delete-btn"> ❌</button>
+        </li>`;
     });
     const historyItems = document.querySelectorAll(".history-item")
     historyItems.forEach((item) => {
@@ -101,5 +104,14 @@ function renderHistory(){
         getWeather();
     });
 });
+const deleteButtons = document.querySelectorAll(".delete-btn");
+    deleteButtons.forEach((button, index) => {
+        button.addEventListener("click", () => {
+            searchHistory.splice(index, 1);
+            localStorage.setItem("weatherHIstory", JSON.stringify(searchHistory)
+        );
+        renderHistory();
+        });
+    });
 }
 renderHistory();
