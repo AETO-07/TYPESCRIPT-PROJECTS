@@ -2,10 +2,17 @@ const cityInput = document.getElementById("cityInput") as HTMLInputElement;
 const searchBtn = document.getElementById("searchBtn") as HTMLButtonElement
 const result = document.getElementById("weatherResult") as HTMLDivElement;
 const historyList = document.getElementById("historyList") as HTMLUListElement;
+const clearHistoryBtn = document.getElementById("clearHistoryBtn") as HTMLButtonElement;
 
 let searchHistory: string[] = JSON.parse(
     localStorage.getItem("weatherHistory") || "[]"
 );
+
+clearHistoryBtn.addEventListener("click", () => {
+    searchHistory = [];
+    localStorage.removeItem("weatherHistory");
+    renderHistory();
+});
 
 searchBtn.addEventListener("click", () =>{
     getWeather();
@@ -108,7 +115,7 @@ const deleteButtons = document.querySelectorAll(".delete-btn");
     deleteButtons.forEach((button, index) => {
         button.addEventListener("click", () => {
             searchHistory.splice(index, 1);
-            localStorage.setItem("weatherHIstory", JSON.stringify(searchHistory)
+            localStorage.setItem("weatherHistory", JSON.stringify(searchHistory)
         );
         renderHistory();
         });
